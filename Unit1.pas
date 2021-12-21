@@ -426,7 +426,7 @@ begin
         k := 1
       else if (q > 86) AND (q < 94) then
         k := 3
-      else 
+      else
         k := 4;
 
       x := d[k,1]*x + d[k,2]*y + d[k,5];   { transform coordinates }
@@ -2504,7 +2504,7 @@ end;
 const
   DefFractalWidth = 640;
   DefFractalHeight = 480;
-  
+
 procedure TForm1.FormCreate(Sender: TObject);
 begin
   Randomize;
